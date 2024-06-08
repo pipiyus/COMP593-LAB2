@@ -40,8 +40,7 @@ def main():
     print_pizza_toppings(about_me)
 
     # Step 6: Add another movie to the data structure
-    # TODO: Change to a movie you like
-    add_movie(about_me, 'the lord of the rings', 'fantasy')
+    add_movie(about_me, 'Avengers', 'action')
 
     # Step 7: Print a comma-separated list of movie genres
     print_movie_genres(about_me)
