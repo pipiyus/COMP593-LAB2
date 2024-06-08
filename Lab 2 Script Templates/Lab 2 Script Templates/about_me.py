@@ -68,9 +68,11 @@ def print_pizza_toppings(my_info):
         my_info (dict): Data structure containing information about me
     """
     # TODO: Complete function body per Step 4
-    # Print header "My favourite pizza toppings are:"
+    # Print header
+    print("My favourite pizza toppings are:")
     # Print bullet list of favourite pizza toppings
-    print()
+    for topping in my_info['pizza toppings']:
+        print(f"- {topping.capitalize()}")
 
 def add_pizza_toppings(my_info, toppings):
     """Adds some pizza toppings to the list of favourites
