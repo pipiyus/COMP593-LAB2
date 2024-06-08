@@ -36,8 +36,7 @@ def main():
     print_pizza_toppings(about_me)
 
     # Step 5: Add pizza toppings to the data structure
-    # TODO: Change to pizza toppings you like
-    add_pizza_toppings(about_me, ['soylent green', 'racht'])
+    add_pizza_toppings(about_me, ['tomato', 'olives'])
     print_pizza_toppings(about_me)
 
     # Step 6: Add another movie to the data structure
