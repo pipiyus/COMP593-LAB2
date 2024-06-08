@@ -8,16 +8,24 @@ Usage:
 def main():
     # Step 2: Create a complex data structure that holds information about me
     about_me = {
-        # TODO: Put full name into data structure
-        # TODO: Put student ID into data structure
-        # TODO: Put list of 3 pizza toppings into data structure
+        'name': 'Piyush',
+        'Student ID': '10315545',
+        'pizza toppings': [
+            'Capcicum',
+            'Pineapple',
+            'Onion'
+        ],
         'movies': [
             # TODO: Change this to a movie you like
             {
-                'title': 'The empire strikes back',
-                'genre': 'sci-fi'
+                'title': 'Fast and furious',
+                'genre': 'Racing'
             },
             # TODO: Add one more movie
+            {
+                'title': 'Men in Black',
+                'genre': 'Action'
+                },
         ]
     }
 
