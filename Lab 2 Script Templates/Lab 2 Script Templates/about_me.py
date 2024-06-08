@@ -55,9 +55,11 @@ def print_student_name_and_id(my_info):
         my_info (dict): Data structure containing information about me
     """
     # TODO: Complete function body per Step 3
-    # Print sentence containing name
-    # Print sentence containing student ID
-    print()
+    name = my_info['name']
+    student_id = my_info['Student ID']
+    # Print the sentences
+    print(f"My name is {name}.")
+    print(f"My student ID is {student_id}.")
 
 def print_pizza_toppings(my_info):
     """Prints a bullet list of favourite pizza toppings
